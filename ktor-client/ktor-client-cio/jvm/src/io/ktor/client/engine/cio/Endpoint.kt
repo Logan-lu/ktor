@@ -183,6 +183,7 @@ internal class Endpoint(
                         trustManager,
                         randomAlgorithm,
                         cipherSuites,
+                        certificates,
                         address.hostName
                     )
                 }
